@@ -34,22 +34,27 @@ String
 Uundefined 
 */
 
-let a=null
-let b=21
-let c=true
-let d=BigInt(55)
-let e=Symbol("weeww")
-let f="Ayush is Great"
-let g
-console.log(a,'\n',b,'\n',c,'\n',d,'\n',e,'\n',f,'\n',g);
+// let a=null
+// let b=21
+// let c=true
+// let d=BigInt(55)
+// let e=Symbol("weeww")
+// let f="Ayush is Great"
+// let g
+// console.log(a,'\n',b,'\n',c,'\n',d,'\n',e,'\n',f,'\n',g);
 
 
-//................ Object................
+// //................ Object................
 
-const obj={
-    "ayush":true,
-    "ayush1":"wwd",
-    "ayush2":12,
-    "ayush3":Symbol("we human are dying")
-}
-console.log(obj["ayush1"]);
+// const obj={
+//     "ayush":true,
+//     "ayush1":"wwd",
+//     "ayush2":12,
+//     "ayush3":Symbol("we human are dying")
+// }
+// console.log(obj["ayush1"]);
+
+
+// ..........Operator.........
+
+let a=prompt("Enter answer")
