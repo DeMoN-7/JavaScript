@@ -4,4 +4,5 @@ if (a>9 && a<21 ){
 }
 else{
     console.log("Failed");
+    
 }
