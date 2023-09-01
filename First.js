@@ -57,4 +57,27 @@ Uundefined
 
 // ..........Operator.........
 
-let a=prompt("Enter answer")
+// let a=prompt("Enter answer")
+
+
+// .................. Function
+
+
+// function temp(a,b){
+//     console.log(a+b);
+// }
+// temp(22,33)
+// temp(12,31)
+// temp(52,73)
+
+// .................Reccursion.........
+
+
+// function temp(a){
+//     console.log(a);
+//     if (a>0){
+//         a=a-1
+//         return temp(a)
+//     }
+// }
+// temp(5)
