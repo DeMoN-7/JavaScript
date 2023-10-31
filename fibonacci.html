@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Fibonacci</title>
+    </head>
+    <body>
+        <script>
+            function Fibo(){
+                var num=parseInt(prompt("Enter Limit"));
+                var a=0;
+                var b=1;
+                document.write(a+" "+b+" ");
+                for(var i=2;i<num;i++){
+                    var c=a+b;
+                    a=b;
+                    b=c;
+                    document.write(+" "+c+" ")
+                }
+            }
+        </script>
+            <input type="button" value="Click Me" onclick="Fibo()">
+    </body>
+</html>

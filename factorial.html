@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Factorial</title>
+    </head>
+    <body>
+        <input type="button" value="Click Me" onclick="fact()">
+        <script>
+            
+            function fact(){
+                let fact=1;
+                var a=parseInt(prompt("Enter the number"));
+                for (let i=a;i>0;i--){
+                    fact*=i;
+                }
+                
+                document.write(fact)
+
+            }
+        </script>
+    </body>
+</html>
