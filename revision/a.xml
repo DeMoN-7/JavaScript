@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <name>Ayush Singh</name>
+        <course>Computer Science</course>
+        <rollNumber>12345</rollNumber>
+        <dob>2003-05-15</dob>
+        <mobileNumber>123-456-7890</mobileNumber>
+    </student>
+    <student>
+        <name>Aryan Rana</name>
+        <course>Mathematics</course>
+        <rollNumber>67890</rollNumber>
+        <dob>2000-02-28</dob>
+        <mobileNumber>987-654-3210</mobileNumber>
+    </student>
+</students>

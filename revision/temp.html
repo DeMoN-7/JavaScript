@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Resize Image</title>
+    <script>
+        function bigg() {
+            var image = document.getElementById("dog");
+            image.style.height=(image.offsetHeight +10)+"px";
+            image.style.width=(image.offsetWidth+10)+"px";
+        }
+
+        function smoll() {
+            var image = document.getElementById("dog");
+            image.style.height=(image.offsetHeight-10)+"px";
+            image.style.width=(image.offsetWidth-10)+"px";
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <img src="a.png" height="400px" width="400px" id="dog">
+        <br><br><br>
+        <input type="button" value="Bigger Image" onclick="bigg()">
+        <input type="button" value="Smaller Image" onclick="smoll()">
+    </center>
+</body>
+</html>
